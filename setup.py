@@ -8,5 +8,5 @@ setup(
     author='Olivia Byram',
     author_email='ocbyram@gmail.com',
     license='MIT',
-    packages=['MonteCarlo']
+    packages=['Monte_Carlo']
 )
