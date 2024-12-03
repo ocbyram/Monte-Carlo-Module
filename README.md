@@ -1,6 +1,8 @@
-MetaData Section
+# DS5100 Final Project
 
-# Monte Carlo Simulator
-## Author: Olivia Byram
+### Metadata
+
+Monte Carlo Simulator
+Author: Olivia Byram (ocb3wv)
 
 
