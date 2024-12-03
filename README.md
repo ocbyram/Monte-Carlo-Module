@@ -1,1 +1,6 @@
-# Monte Carlo Simulator: Olivia Byram
+MetaData Section
+
+# Monte Carlo Simulator
+# Author: Olivia Byram
+
+
