@@ -12,9 +12,22 @@ Author: Olivia Byram (ocb3wv)
 ### Installation
 
 ```
-pip install .
+pip install -e .
 ```
 
 ### Importing
 
+```
+import Monte_Carlo.MonteCarlo
+from Monte_Carlo.MonteCarlo import Die, Game, Analyzer
+```
+
 ### Code Use Examples
+
+## API Description
+
+### Die Class
+
+### Game Class
+
+### Analyzer Class
