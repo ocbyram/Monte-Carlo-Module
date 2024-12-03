@@ -9,3 +9,12 @@ Author: Olivia Byram (ocb3wv)
 
 ## Synopsis
 
+### Installation
+
+```
+pip install .
+```
+
+### Importing
+
+### Code Use Examples
