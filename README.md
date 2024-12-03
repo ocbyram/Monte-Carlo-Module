@@ -42,7 +42,7 @@ from Monte_Carlo.MonteCarlo import Die, Game, Analyzer
     - state(): This returns a dataframe of die rolls and outcomes. 
     """
 
-### Die Class Methods:
+**Die Class Methods:**
 
 
 ### Game Class
