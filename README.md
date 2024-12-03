@@ -1,8 +1,11 @@
+# Monte-Carlo-Module 
 # DS5100 Final Project
 
-### Metadata
+## Metadata
 
-Monte Carlo Simulator
+Project Name: Monte Carlo Simulator
+
 Author: Olivia Byram (ocb3wv)
 
+## Synopsis
 
