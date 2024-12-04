@@ -144,3 +144,83 @@ from Monte_Carlo.MonteCarlo import Die, Game, Analyzer
         """
 
 ### Analyzer Class
+
+    """Description: An Analyzer object that takes the results of a single game and computes
+                    various descriptive statistical properties about it
+
+    Methods:
+    - __init__(): initializes the game_object argument
+
+    - jackpot(): counts the number of times all faces of die rolled are the same. 
+                    Computes how many times there is a jackpot in a game.
+
+    - face_counts(): Computes how many times a given face is rolled in each event
+
+    - combos(): Computes the distinct combinations of faces rolled, along with their
+                counts
+
+    - permutations(): Computes the distinct permutations of faces rolled, along with their
+                        counts
+    """
+
+*__init__()*
+
+        """
+        Purpose: initializes the game_object argument
+
+        Arguments: game_object: a game object. Throws a `ValueError` if
+                    the passed value is not a Game object.
+
+        Outcome: an instantiated game object
+    
+        """
+
+*jackpot()*
+
+        """
+        Purpose: counts the number of times all faces of die rolled are the same. 
+                    Computes how many times there is a jackpot in a game.
+    
+        Arguments: none
+    
+        Outcome: an integer with the number of times a jackpot was rolled in a game
+        
+        """
+
+*face_counts()*
+
+        """
+        Purpose: Computes how many times a given face is rolled in each event
+    
+        Arguments: none
+    
+        Outcome: a dataframe of results with an index of the roll number, face values as
+                    columns, and count values in the cells
+        
+        """
+
+*combos()*
+
+        """
+        Purpose: Computes the distinct combinations of faces rolled, along with their
+                    counts
+    
+        Arguments: none
+    
+        Outcome: a dataframe of results with a MultiIndex of distinct combinations
+                    and a column for the associated counts
+        
+        """
+
+*permutations()*
+
+        """
+        Purpose: Computes the distinct permutations of faces rolled, along with their
+                        counts
+    
+        Arguments: none
+    
+        Outcome: a dataframe of results with a MultiIndex of distinct permutations
+                    and a column for the associated counts
+        
+        """
