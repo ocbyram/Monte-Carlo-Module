@@ -43,6 +43,41 @@ unfair_coin.change_weight('H', 5)
 unfair_coin.state()
 ```
 
+*Playing a game where the die are rolled 1000 times*
+
+```
+object = Game([fair_coin,unfair_coin])
+object.play(1000)
+```
+
+*Analyzing a game - looking for jackpots*
+
+```
+game1 = Analyzer(object)
+game1_jackpots = game1.jackpot()
+```
+
+*Analyzing a game - looking for face counts*
+
+```
+game1 = Analyzer(object)
+game1_jackpots = game1.face_counts()
+```
+
+*Analyzing a game - looking for combinations*
+
+```
+game1 = Analyzer(object)
+game1_jackpots = game1.combos()
+```
+
+*Analyzing a game - looking for permutations*
+
+```
+game1 = Analyzer(object)
+game1_jackpots = game1.permutations()
+```
+
 ## API Description
 
 ### Die Class
