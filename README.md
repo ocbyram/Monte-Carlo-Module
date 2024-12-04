@@ -24,6 +24,25 @@ from Monte_Carlo.MonteCarlo import Die, Game, Analyzer
 
 ### Code Use Examples
 
+*Creating Die*
+
+```
+fair_coin = Die(np.array(["H", "T"]))
+unfair_coin = Die(np.array(["H", "T"]))
+```
+
+*Changing the Weight of Face 'H' for the unfair_coin*
+
+```
+unfair_coin.change_weight('H', 5)
+```
+
+*Looking at the die faces/weights in a dataframe*
+
+```
+unfair_coin.state()
+```
+
 ## API Description
 
 ### Die Class
