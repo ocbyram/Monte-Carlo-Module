@@ -93,4 +93,54 @@ from Monte_Carlo.MonteCarlo import Die, Game, Analyzer
 
 ### Game Class
 
+    """Description: A game where the user can roll one ore more die at a time.
+
+    Methods:
+    - __init__(): This initializes the list of instantiated die
+
+    - play(): a play method so users can roll the die
+
+    - show(): A method to show the user the results of the most recent play
+    """
+
+*__init__()*
+
+        """
+        Purpose: an initializer for the dice
+
+        Arguments: sim_faces: a list of instantiated dice
+
+        Outcome: returns the list of instantiated dice
+    
+        """
+
+*play()*
+
+        """
+        Purpose: a play method so users can roll the die
+
+        Arguments: num_rolls: the number of times a user would like
+                    the die to be rolled (integer)
+            
+        Outcome: a dataframe in wide format and the roll number
+        as a named index, columns for each die number (using its list index
+        as the column name), and the face rolled in that instance in each
+        cell
+    
+        """
+
+*show()*
+
+        """
+        Purpose: A method to show the user the results of the most recent play
+
+        Arguments: form: What form the user would like the dataframe in.
+                default is wide, other option is narrow. If anything else
+                is passed, there is a value error. (string)
+
+        Outcome: a dataframe in either wide or narrow format of roll number,
+                die number, and the face rolled in that instance.
+    
+        """
+
 ### Analyzer Class
